@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <permission android:name="com.flame.pemission" />
+
+    <uses-permission android:name="com.flame.pemission" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/accessibility_custom_off"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActCamera" />
+        <activity android:name=".ActivityA" />
+
+        <receiver android:name=".MyReceiver">
+            <intent-filter android:priority="10">
+                <action android:name="com.fxlts.receiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".MyReceiver2"
+            android:permission="com.flame.pemission">
+            <intent-filter android:priority="20">
+                <action android:name="com.fxlts.receiver" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".LocalService" />
+
+        <activity android:name="com.flame.ui.ActivityD"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.flame.ui.TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.flame.ui.ActivityE"></activity>
+    </application>
+
+</manifest>

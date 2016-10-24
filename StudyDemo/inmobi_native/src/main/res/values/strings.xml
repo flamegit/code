@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Inmobi_Native</string>
+    <string name="title_activity_app_list">AppListActivity</string>
+</resources>
