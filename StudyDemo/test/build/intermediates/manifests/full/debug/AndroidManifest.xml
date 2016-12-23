@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+
+    <permission android:name="com.flame.pemission" />
+
+    <uses-permission android:name="com.flame.pemission" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/accessibility_custom_off"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.test.ActCamera" />
+        <activity android:name="com.example.test.ActivityA" />
+
+        <receiver android:name="com.example.test.MyReceiver" >
+            <intent-filter android:priority="10" >
+                <action android:name="com.fxlts.receiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.example.test.MyReceiver2"
+            android:permission="com.flame.pemission" >
+            <intent-filter android:priority="20" >
+                <action android:name="com.fxlts.receiver" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.example.test.LocalService" />
+
+        <activity
+            android:name="com.flame.ui.ActivityD"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.flame.ui.TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.flame.ui.ActivityE" />
+    </application>
+
+</manifest>

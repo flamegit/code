@@ -1,0 +1,128 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+permission#com.flame.pemission
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:5:5-54
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:5:17-51
+uses-permission#com.flame.pemission
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:7:5-59
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:7:22-56
+uses-permission#android.permission.INTERNET
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:10:5-84
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:10:22-81
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:11:5-88
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:11:22-85
+application
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:13:5-49:19
+MERGED from [com.android.support:design:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+	android:label
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:15:9-57
+	android:supportsRtl
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:17:9-40
+activity#com.example.test.ActCamera
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:18:9-47
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:18:19-44
+activity#com.example.test.ActivityA
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:19:9-47
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:19:19-44
+receiver#com.example.test.MyReceiver
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:21:9-25:20
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:21:19-45
+intent-filter#com.fxlts.receiver
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:22:13-24:29
+	android:priority
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:22:28-49
+action#com.fxlts.receiver
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:23:17-61
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:23:25-58
+receiver#com.example.test.MyReceiver2
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:26:9-32:20
+	android:permission
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:28:13-53
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:27:13-40
+service#com.example.test.LocalService
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:34:9-49
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:34:18-46
+activity#com.flame.ui.ActivityD
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:36:9-37:58
+	android:theme
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:36:19-56
+activity#com.flame.ui.TestActivity
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:38:9-47:20
+	android:label
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:40:13-56
+	android:theme
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:39:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:45:27-74
+activity#com.flame.ui.ActivityE
+ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:48:9-68
+	android:name
+		ADDED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml:48:19-56
+uses-sdk
+INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\studio project\StudyDemo\test\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
+		INJECTED from D:\studio project\StudyDemo\test\src\main\AndroidManifest.xml
